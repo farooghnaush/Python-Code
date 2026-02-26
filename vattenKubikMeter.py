@@ -32,7 +32,7 @@ class vattenKubikMeter:
 
 if __name__ == "__main__":
     print("Ange siffror med mellanslag:")
-    a = [int(x) for x in input().split()]
+    a = [int(x) for x in input().split(",")]
     b = vattenKubikMeter(a)
     w = b.beräkna_vatten()
     print(f"{w} m³")
