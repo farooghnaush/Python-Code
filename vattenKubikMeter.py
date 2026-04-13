@@ -3,7 +3,7 @@ class vattenKubikMeter:
         self.value = value
 
     def beräkna_vatten(self):
-        """Räkna hur mycket vatten en terrängen kan förvara."""
+        """Räkna vatten en terrängen kan förvara."""
         
         if not self.value:
             return 0
